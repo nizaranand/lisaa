@@ -1,0 +1,654 @@
+/***** WP Editor Styles *****/
+
+html .mceContentBody { max-width: 726px; }
+
+* { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #555; font-weight: 300; }
+
+a, a:visited { text-decoration: none !important; color: #222; }
+
+
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 { color: #222; font-family: 'Helvetica Neue', Helvetica, sans-serif; font-weight: bold; font-weight: 800; padding: 0; margin: 0; }
+
+
+
+h1 { font-size: 30px; line-height: 34px; letter-spacing: -1px; margin-bottom: 20px; }
+
+h2 { font-size: 18px; line-height: 22px; letter-spacing: -1px; margin-bottom: 10px; }
+
+h3 { font-size: 14px; line-height: 20px; letter-spacing: -1px; margin-bottom: 10px; }
+
+h4 { font-size: 13px; margin-bottom: 10px; }
+
+h5 { font-size: 12px; margin-bottom: 10px; }
+
+h6 { font-size: 11px; margin-bottom: 10px; }
+
+
+
+p, ul, ol, address { font-size: 13px; line-height: 20px; }
+
+p {  margin: 20px 0; }
+
+ul { margin: 20px 40px; list-style-position: inside; list-style: disc; }
+
+ol { margin: 20px 40px; list-style-position: inside; list-style: decimal-leading-zero; }
+
+strong { font-weight: bold; }
+
+blockquote { color: #888; font-family: "Yanone Kaffeesatz", 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.8em; font-weight: 300; text-align: left; line-height: 30px; border-left: 5px solid #555; padding: 10px 20px 10px 20px; margin: 0 0 20px 20px; }
+
+blockquote p:last-child { margin: 0; }
+
+code { font: 11px Monaco, Courier, monospace; padding: 2px; background: #f1f1f1; }
+
+pre { width: 95%; overflow: auto; overflow-y: hidden; border: 1px solid #d9d9d9; margin: 20px 0; padding: 0 0 0 10px; background: url(images/bg-pre-light.gif) 0 0; }
+
+pre code { background: none; line-height: 2.3em; margin: 0 20px; padding: 18px 0; }
+
+address { font-style: normal; }
+
+
+
+img.aligncenter { display: block; margin: 0 auto; }
+
+img.alignleft { margin: 0 20px 20px 0; }
+
+img.alignright { margin: 0 0 20px 20px; }
+
+.wp-caption { position: relative; border: none; background: none; margin: 0; padding: 0; text-align: left; }
+
+.wp-caption-dt img { display: block; }
+
+.wp-caption-dd { margin: 10px 0 0; font: italic 14px/1.5em Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif; padding: 0 0 0 25px; color: #222; background: url(images/decorationstrong-light.png) no-repeat 0 7px; }
+
+dl.alignleft { margin: 20px 20px 0 0; }
+
+dl.alignright { margin: 0 0 20px 20px; }
+
+dl.aligncenter { margin: 20px auto; }
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+
+/*		Custom shortcodes
+
+/*
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/*		Custom shortcodes » Buttons
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+.button a { display: inline-block; position: relative; font-family: "Yanone Kaffeesatz", 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 1.8em; font-weight: 400; text-decoration: none; text-transform: uppercase; text-align: center; line-height: 28px; padding: 10px 30px; margin: 0 0 10px 0; }
+
+.button a {
+
+
+
+	-webkit-transition: all 0.2s linear;
+
+	-moz-transition: all 0.2s linear;
+
+	-o-transition: all 0.2s linear;
+
+	transition: all 0.2s linear;
+
+
+
+}
+
+
+
+
+
+/* - White - */
+
+.button.button-white a { background: #ccc; color: #444; border: 1px solid #888; }
+
+.button.button-white a {
+
+
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.75);
+
+
+
+	background-image: linear-gradient(bottom, rgb(242,242,242) 0%, rgb(248,248,248) 100%);
+
+	background-image: -o-linear-gradient(bottom, rgb(242,242,242) 0%, rgb(248,248,248) 100%);
+
+	background-image: -moz-linear-gradient(bottom, rgb(242,242,242) 0%, rgb(248,248,248) 100%);
+
+	background-image: -webkit-linear-gradient(bottom, rgb(242,242,242) 0%, rgb(248,248,248) 100%);
+
+	background-image: -ms-linear-gradient(bottom, rgb(242,242,242) 0%, rgb(248,248,248) 100%);
+
+
+
+	background-image: -webkit-gradient(
+
+		linear,
+
+		left bottom,
+
+		left top,
+
+		color-stop(0, rgb(242,242,242)),
+
+		color-stop(1, rgb(248,248,248))
+
+	);
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.15), 0 1px 0 0 rgba(255,255,255, 1) inset;
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.15), 0 1px 0 0 rgba(255,255,255, 1) inset;
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.15), 0 1px 0 0 rgba(255,255,255, 1) inset;
+
+
+
+}
+
+
+
+/* - Red - */
+
+.button.button-red a { background: #f55235; color: #570e01 !important; border: 1px solid #570e01; }
+
+.button.button-red a {
+
+
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.25);
+
+
+
+	background-image: linear-gradient(bottom, rgb(221,74,48) 0%, rgb(244,81,53) 100%);
+
+	background-image: -o-linear-gradient(bottom, rgb(221,74,48) 0%, rgb(244,81,53) 100%);
+
+	background-image: -moz-linear-gradient(bottom, rgb(221,74,48) 0%, rgb(244,81,53) 100%);
+
+	background-image: -webkit-linear-gradient(bottom, rgb(221,74,48) 0%, rgb(244,81,53) 100%);
+
+	background-image: -ms-linear-gradient(bottom, rgb(221,74,48) 0%, rgb(244,81,53) 100%);
+
+
+
+	background-image: -webkit-gradient(
+
+		linear,
+
+		left bottom,
+
+		left top,
+
+		color-stop(0, rgb(221,74,48)),
+
+		color-stop(1, rgb(244,81,53))
+
+	);
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+
+
+}
+
+
+
+/* - Yellow - */
+
+.button.button-yellow a { background: #ffd62c; color: #584700; border: 1px solid #584700; }
+
+.button.button-yellow a {
+
+
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.25);
+
+
+
+	background-image: linear-gradient(bottom, rgb(230,192,40) 0%, rgb(253,215,44) 100%);
+
+	background-image: -o-linear-gradient(bottom, rgb(230,192,40) 0%, rgb(253,215,44) 100%);
+
+	background-image: -moz-linear-gradient(bottom, rgb(230,192,40) 0%, rgb(253,215,44) 100%);
+
+	background-image: -webkit-linear-gradient(bottom, rgb(230,192,40) 0%, rgb(253,215,44) 100%);
+
+	background-image: -ms-linear-gradient(bottom, rgb(230,192,40) 0%, rgb(253,215,44) 100%);
+
+
+
+	background-image: -webkit-gradient(
+
+		linear,
+
+		left bottom,
+
+		left top,
+
+		color-stop(0, rgb(230,192,40)),
+
+		color-stop(1, rgb(253,215,44))
+
+	);
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+
+
+}
+
+
+
+/* - Green - */
+
+.button.button-green a { background: #45c254; color: #013908; border: 1px solid #013908; }
+
+.button.button-green a {
+
+
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.25);
+
+
+
+	background-image: linear-gradient(bottom, rgb(62,175,75) 0%, rgb(69,194,84) 100%);
+
+	background-image: -o-linear-gradient(bottom, rgb(62,175,75) 0%, rgb(69,194,84) 100%);
+
+	background-image: -moz-linear-gradient(bottom, rgb(62,175,75) 0%, rgb(69,194,84) 100%);
+
+	background-image: -webkit-linear-gradient(bottom, rgb(62,175,75) 0%, rgb(69,194,84) 100%);
+
+	background-image: -ms-linear-gradient(bottom, rgb(62,175,75) 0%, rgb(69,194,84) 100%);
+
+
+
+	background-image: -webkit-gradient(
+
+		linear,
+
+		left bottom,
+
+		left top,
+
+		color-stop(0, rgb(62,175,75)),
+
+		color-stop(1, rgb(69,194,84))
+
+	);
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+
+
+}
+
+
+
+/* - Blue - */
+
+.button.button-blue a { background: #369fcc; color: #012e41; border: 1px solid #012e41; }
+
+.button.button-blue a {
+
+
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.25);
+
+
+
+	background-image: linear-gradient(bottom, rgb(54,143,191) 0%, rgb(60,159,212) 100%);
+
+	background-image: -o-linear-gradient(bottom, rgb(54,143,191) 0%, rgb(60,159,212) 100%);
+
+	background-image: -moz-linear-gradient(bottom, rgb(54,143,191) 0%, rgb(60,159,212) 100%);
+
+	background-image: -webkit-linear-gradient(bottom, rgb(54,143,191) 0%, rgb(60,159,212) 100%);
+
+	background-image: -ms-linear-gradient(bottom, rgb(54,143,191) 0%, rgb(60,159,212) 100%);
+
+
+
+	background-image: -webkit-gradient(
+
+		linear,
+
+		left bottom,
+
+		left top,
+
+		color-stop(0, rgb(54,143,191)),
+
+		color-stop(1, rgb(60,159,212))
+
+	);
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.25), 0 1px 0 0 rgba(255,255,255, 0.25) inset;
+
+
+
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/*		Custom shortcodes » Toggle
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+.tva-toggle {margin-bottom: 20px; }
+
+.tva-toggle > p:first-child { margin: 0; }
+
+.tva-toggle > p:last-child { margin: 0; }
+
+
+
+/* - Trigger - */
+
+.tva-toggle .tva-toggle-trigger { font-weight: bold; padding-left: 25px; }
+
+.tva-toggle .tva-toggle-trigger { background-image: url(images/icons/icon-expand.png); background-repeat: no-repeat; background-position: center left; }
+
+.tva-toggle .tva-toggle-trigger.active { background-image: url(images/icons/icon-collapse.png); }
+
+
+
+/* - Content - */
+
+.tva-toggle .tva-toggle-content { display: none; }
+
+.tva-toggle .tva-toggle-content { padding-top: 20px; }
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/*		Custom shortcode's » Quotes
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+.pullquote { width: 30%; background: none; border: none; padding: 0; margin: 0; }
+
+.pullquote p { margin: 0; }
+
+.pullleft { text-align: right; border-right: 5px solid #555; padding: 10px 20px 10px 0; margin: 0 20px 20px 0; }
+
+.pullright { text-align: left; border-left: 5px solid #555; padding: 10px 0 10px 20px; margin: 0 0 20px 20px; }
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/*		Custom shortcodes » Alerts
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+.alert { display: block; position: relative; font-weight: bold; text-align: center; padding: 20px 30px; margin-bottom: 20px; }
+
+.alert {
+
+
+
+	text-shadow: 0 1px 0 rgba(255,255,255, 0.25);
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+
+
+}
+
+.alert p:last-child { margin: 0; }
+
+
+
+/* - White - */
+
+.alert.white { background: #fafafa; color: #111; border: 1px solid #ccc; }
+
+.alert.white { 
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+
+
+}
+
+
+
+/* - Red - */
+
+.alert.red { background: #fff2f2; color: #b60f0f; border: 1px solid #f3c0c0; }
+
+.alert.red {
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	
+
+}
+
+
+
+/* - Yellow - */
+
+.alert.yellow { background: #fffceb; color: #975507; border: 1px solid #e9c78c; }
+
+.alert.yellow {
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+
+
+}
+
+
+
+/* - Green - */
+
+.alert.green { background: #e7fddf; color: #11601c; border: 1px solid #b8dca6; }
+
+.alert.green {
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+
+
+}
+
+
+
+/* - Blue - */
+
+.alert.blue { background: #f2f8ff; color: #204479; border: 1px solid #c2cef1; }
+
+.alert.blue {
+
+
+
+	-moz-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	-webkit-box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+	box-shadow: 0 1px 0 0 rgba(0,0,0, 0.05);
+
+
+
+}
+
+
+
+/* - Close alert - */
+
+.closealert { position: absolute; font-size: 0.9em; font-weight: bold; top: 0; right: 10px; cursor: pointer; }
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/*		Custom shortcode's » Columns
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+.entry-content .tva-two-columns,
+
+.entry-content .tva-three-columns,
+
+.entry-content .tva-four-columns { margin-bottom: 20px; }
+
+.tva-two-columns { -moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2; column-gap: 20px; }
+
+.tva-three-columns { -moz-column-count: 3; -moz-column-gap: 20px; -webkit-column-count: 3; -webkit-column-gap: 20px; column-count: 3; column-gap: 20px; }
+
+.tva-four-columns { -moz-column-count: 4; -moz-column-gap: 20px; -webkit-column-count: 4; -webkit-column-gap: 20px; column-count: 4; column-gap: 20px; }
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/*		Custom shortcodes » Lists
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+/* - v-List - */
+
+ul.list-v { list-style-type: none !important; }
+
+ul.list-v li { background: url(images/icon-on.png) no-repeat left center; padding-left: 25px; }
+
+
+
+
+
+/* - x-List - */
+
+ul.list-x { list-style-type: none !important; }
+
+ul.list-x li { background: url(images/icon-off.png) no-repeat left center; padding-left: 25px; }
+
+
+
+
+
+/*---------------------------------------------------------------------------------------*/
+
+/*		Custom shortcode's » Highlight
+
+/*---------------------------------------------------------------------------------------*/
+
+
+
+.highlight { background: #ffd62c; }
+
+
+

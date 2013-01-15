@@ -1,0 +1,144 @@
+.row.big {
+    width: 1000px;
+    min-width: 1000px;
+    max-width: 1000px;
+}
+
+#content-wrap {
+    margin: 25px 0 0;
+}
+
+/* Header */
+.header {
+    border: 1px solid red;
+    width: 1000px;
+    height: 75px;
+}
+
+.header .header-menu {
+    border: 1px solid red;
+    width: 192px;
+    height: 40px;
+    margin-left: 10px;
+    float: right;
+}
+
+/* Content */
+#content {
+    box-shadow: 0 0 1px 1px red;
+    width: 1000px;
+    height: 585px;
+    float: none;
+    margin: 20px 0;
+}
+
+.content-block {
+    /*border: 1px solid red;*/
+    width: 192px;
+    height: 585px;
+    margin: 0 10px 0 0;
+    float: left;
+    background-color: yellow;
+}
+
+.content-block:nth-child(5) {
+    margin: 0;
+}
+
+/* Menu */
+
+.menu {
+    padding-top: 20px;
+    height: 200px;
+}
+
+.menu-item {
+    width: 326px;
+    height: 40px;
+    margin: 0 0 0 11px;
+    float: left;
+    background-color: yellow;
+}
+
+.menu-item:first-child {
+    margin-left: 0;
+}
+
+.submenu {
+    width: 596px;
+    height: 110px;
+    position: absolute;
+    top: 65px;
+    display: none;
+    background-color: #e0ffff;
+
+    text-align: justify;
+}
+    /* http://css-tricks.com/equidistant-objects-with-css/ */
+.submenu:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+
+.submenu.item1 {
+    left: 0;
+}
+
+.submenu.item2 {
+    left: 202px;
+}
+
+.submenu.item3 {
+    left: 404px;
+}
+
+.submenu-column {
+    box-shadow: 0 0 1px 1px red;
+    margin-left: 10px;
+    height: 100%;
+    display: inline-block;
+    width: 60px;
+    float: none; /*fix, css override*/
+}
+
+.submenu-column.item1 {
+    margin-left: 0;
+    left: 0;
+}
+
+.submenu-column.item2 {
+
+}
+
+.submenu-column.item3 {
+    right: 0;
+}
+
+/* Footer */
+.footer {
+    border: 1px solid red;
+    width: 1000px;
+    height: 75px;
+}
+
+/* FIXES */
+#loading-isotope {
+    display: none;
+}
+
+#sidebar {
+    display: none;
+}
+
+#content .isotope {
+    display: none;
+}
+
+.home #number-page-navigation {
+    display: none;
+}
+
+[class*="column"] + [class*="column"]:last-child {
+    float: none;
+}

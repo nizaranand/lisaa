@@ -1,0 +1,69 @@
+Update v1.13: September 7, 2012
+
+===========================
+
+- Fixed issue with mobile menu
+
+
+
+Update v1.12: September 5, 2012
+
+===========================
+
+- Fixed image size for multiple sliders on one page
+
+- Fixed fallback full screen background images when no custom page backgrounds have been selected
+
+
+
+Update v1.11: September 3, 2012
+
+===========================
+
+- Fixed image size for custom video featured image
+
+
+
+Update v1.1: September 1, 2012
+
+===========================
+
+- Added "load more" navigation function to both portfolio and blog grid
+
+- Added theme option for three different types of navigation (including "load more" navigation)
+
+- Modified sidebar navigation so it looks more distinct
+
+- Added "fixed sidebar" as theme option
+
+- Added social icons widget
+
+- Tweaked blockquote font
+
+- Tweaked blog-meta
+
+- Tweaker audio/video player skin
+
+- Added XML file to theme package
+
+- updated documentation
+
+
+
+
+
+Update v1.01: August 28, 2012
+
+===========================
+
+- Fixed typo in theme options
+
+
+
+
+
+August 28, 2012
+
+===========================
+
+- Official Release
